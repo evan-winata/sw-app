@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRepos Saga should set films data to store 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": true,
+  "payload": Array [
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "https://test-url.com",
+        ],
+        "context": null,
+        "fn": [Function],
+      },
+      "type": "CALL",
+    },
+  ],
+  "type": "ALL",
+}
+`;
+
+exports[`getRepos Saga should set people data to store 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "https://swapi.dev/api/people/?page=1",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;

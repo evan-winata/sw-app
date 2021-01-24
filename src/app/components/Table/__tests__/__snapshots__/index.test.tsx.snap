@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table  /> should match the snapshot 1`] = `
+.c0 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.c1 {
+  border-collapse: collapse;
+  width: 100%;
+  min-height: auto;
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+.c3:nth-child(even) {
+  background: #f9f8f8;
+}
+
+.c3:hover {
+  background: #e8e8e8;
+}
+
+.c4 {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  height: 1.5rem;
+}
+
+.c2 {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  height: 1.5rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #006989;
+  color: white;
+  width: 33%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.c7 {
+  margin: 0 1rem;
+}
+
+.c6 {
+  cursor: pointer;
+}
+
+<div
+  class=""
+>
+  <div
+    class="c0"
+  >
+    People
+  </div>
+  <table
+    class="c1"
+    data-is-fetching="false"
+  >
+    <thead>
+      <tr>
+        <td
+          class="c2"
+        >
+          Name
+        </td>
+        <td
+          class="c2"
+        >
+          Height
+        </td>
+        <td
+          class="c2"
+        >
+          Mass
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="c3"
+      >
+        <td
+          class="c4"
+        >
+          Anakin Skywalker
+        </td>
+        <td
+          class="c4"
+        >
+          188
+        </td>
+        <td
+          class="c4"
+        >
+          84
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    class="c5"
+  >
+    <div
+      class="c6"
+    >
+      <svg
+        enable-background="new 0 0 444.531 444.531"
+        height="20"
+        version="1.1"
+        viewBox="0 0 444.531 444.531"
+        width="20"
+        x="0"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0"
+      >
+        <path
+          d="M213.13 222.409L351.88 83.653c7.05-7.043 10.567-15.657 10.567-25.841 0-10.183-3.518-18.793-10.567-25.835l-21.409-21.416C323.432 3.521 314.817 0 304.637 0s-18.791 3.521-25.841 10.561L92.649 196.425c-7.044 7.043-10.566 15.656-10.566 25.841s3.521 18.791 10.566 25.837l186.146 185.864c7.05 7.043 15.66 10.564 25.841 10.564s18.795-3.521 25.834-10.564l21.409-21.412c7.05-7.039 10.567-15.604 10.567-25.697 0-10.085-3.518-18.746-10.567-25.978L213.13 222.409z"
+        />
+      </svg>
+    </div>
+    <div
+      class="c7"
+    >
+      Page 
+      1
+       of 
+      9
+    </div>
+    <div
+      class="c6"
+    >
+      <svg
+        enable-background="new 0 0 444.819 444.819"
+        height="20"
+        version="1.1"
+        viewBox="0 0 444.819 444.819"
+        width="20"
+        x="0"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0"
+      >
+        <path
+          d="M352.025 196.712L165.884 10.848C159.029 3.615 150.469 0 140.187 0s-18.842 3.619-25.697 10.848L92.792 32.264c-7.044 7.043-10.566 15.604-10.566 25.692 0 9.897 3.521 18.56 10.566 25.981L231.545 222.41 92.786 361.168c-7.042 7.043-10.564 15.604-10.564 25.693 0 9.896 3.521 18.562 10.564 25.98l21.7 21.413c7.043 7.043 15.612 10.564 25.697 10.564 10.089 0 18.656-3.521 25.697-10.564L352.025 248.39c7.046-7.423 10.571-16.084 10.571-25.981.001-10.088-3.525-18.654-10.571-25.697z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

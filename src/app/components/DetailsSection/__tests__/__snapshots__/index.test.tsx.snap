@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailsSection  /> should match snapshot 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: 8rem 1.25rem 1fr;
+}
+
+.c1 {
+  font-weight: 600;
+}
+
+<div
+  class=""
+>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Name
+    </div>
+    <div>
+      :
+    </div>
+    <div
+      class=""
+    >
+      Luke
+    </div>
+  </div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Birth year
+    </div>
+    <div>
+      :
+    </div>
+    <div
+      class=""
+    >
+      41.9BBY
+    </div>
+  </div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Gender
+    </div>
+    <div>
+      :
+    </div>
+    <div
+      class=""
+    >
+      Male
+    </div>
+  </div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      List of films
+    </div>
+    <div>
+      :
+    </div>
+    <div
+      class=""
+    >
+      Film 1, Film 2
+    </div>
+  </div>
+</div>
+`;
